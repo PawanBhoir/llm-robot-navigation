@@ -1,0 +1,117 @@
+[0.015s] Invoking command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/LLM-Controlled-Bot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot
+[0.183s] -- The C compiler identification is GNU 13.3.0
+[0.299s] -- The CXX compiler identification is GNU 13.3.0
+[0.319s] -- Detecting C compiler ABI info
+[0.408s] -- Detecting C compiler ABI info - done
+[0.414s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.415s] -- Detecting C compile features
+[0.416s] -- Detecting C compile features - done
+[0.426s] -- Detecting CXX compiler ABI info
+[0.506s] -- Detecting CXX compiler ABI info - done
+[0.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.512s] -- Detecting CXX compile features
+[0.512s] -- Detecting CXX compile features - done
+[0.546s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.685s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.883s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.043s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.043s] -- Configured cppcheck include dirs: 
+[1.044s] -- Configured cppcheck exclude dirs and/or files: 
+[1.046s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.046s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.049s] -- Added test 'lint_cmake' to check CMake code style
+[1.051s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.058s] -- Added test 'uncrustify' to check C / C++ code style
+[1.058s] -- Configured uncrustify additional arguments: 
+[1.060s] -- Added test 'xmllint' to check XML markup files
+[1.063s] -- Configuring done (1.0s)
+[1.067s] -- Generating done (0.0s)
+[1.070s] -- Build files have been written to: /home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot
+[1.074s] Invoked command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/LLM-Controlled-Bot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot
+[1.075s] Invoking command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot -- -j12 -l12
+[1.109s] Invoked command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot -- -j12 -l12
+[1.118s] Invoking command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot
+[1.124s] -- Install configuration: ""
+[1.125s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/navigation.py
+[1.125s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/pid_controller.py
+[1.125s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/llm_nav.py
+[1.125s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/bt_server.py
+[1.125s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/path_planning.py
+[1.126s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/waypoint_nav.py
+[1.126s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/check_odometry.py
+[1.126s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/reset_pose.py
+[1.126s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/odom_tf_broadcaster.py
+[1.126s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/tf_static_relay.py
+[1.126s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/tf_map_relay.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/collision_monitor.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/mission_server.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/obstacle_tracker.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/priority_collision_avoidance.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/keyboard_teleop.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/deadlock_recovery.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/frontier_explorer.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/frontier_coordinator.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/diff_drive_robot/coverage_planner.py
+[1.127s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch
+[1.128s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/rviz_launch.py
+[1.128s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/slam.launch.py
+[1.128s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/nav2_navigation_global_tf.launch.py
+[1.128s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/rsp.launch.py
+[1.128s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/.DS_Store
+[1.128s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/slam_nav.launch.py
+[1.128s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/nav2.launch.py
+[1.129s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/robot.launch.py
+[1.129s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/bringup_launch.py
+[1.129s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/launch/slam_launch.py
+[1.129s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/urdf
+[1.129s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/urdf/camera.xacro
+[1.130s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/urdf/inertial_macros.xacro
+[1.130s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/urdf/robot.urdf.xacro
+[1.130s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/urdf/lidar.xacro
+[1.130s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/urdf/lidar3d.xacro
+[1.130s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/urdf/robot_core.xacro
+[1.130s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/urdf/gazebo_control.xacro
+[1.130s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config
+[1.130s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/nav2_params_jazzy.yaml
+[1.131s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/bt
+[1.131s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/bt/navigate_w_recovery.xml
+[1.131s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/nav2_params.yaml
+[1.131s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/slam_toolbox_default.rviz
+[1.131s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/locations.yaml
+[1.132s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/mapper_params_online_async.yaml
+[1.132s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/costmap.yaml
+[1.132s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/.DS_Store
+[1.132s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/slam_params.yaml
+[1.132s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/mapper_params_localization.yaml
+[1.132s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/mapper_params_online_sync.yaml
+[1.132s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/config/gz_bridge.yaml
+[1.132s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/worlds
+[1.133s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/worlds/empty.world
+[1.133s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/worlds/corridor.world
+[1.133s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/worlds/maze.world
+[1.133s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/worlds/obstacles.world
+[1.133s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/worlds/warehouse.world
+[1.134s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/worlds/house.world
+[1.134s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/rviz
+[1.134s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/rviz/.DS_Store
+[1.134s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/rviz/bot.rviz
+[1.135s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/maps
+[1.135s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/maps/my_maze_map.yaml
+[1.135s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/maps/README.md
+[1.135s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/maps/my_maze_map.pgm
+[1.135s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/ament_index/resource_index/package_run_dependencies/diff_drive_robot
+[1.136s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/ament_index/resource_index/parent_prefix_path/diff_drive_robot
+[1.136s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/environment/ament_prefix_path.sh
+[1.136s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/environment/ament_prefix_path.dsv
+[1.136s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/environment/path.sh
+[1.136s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/environment/path.dsv
+[1.137s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/local_setup.bash
+[1.137s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/local_setup.sh
+[1.137s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/local_setup.zsh
+[1.137s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/local_setup.dsv
+[1.137s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.dsv
+[1.137s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/ament_index/resource_index/packages/diff_drive_robot
+[1.137s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/cmake/diff_drive_robotConfig.cmake
+[1.138s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/cmake/diff_drive_robotConfig-version.cmake
+[1.138s] -- Installing: /home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.xml
+[1.140s] Invoked command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot

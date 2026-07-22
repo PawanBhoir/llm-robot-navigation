@@ -1,0 +1,106 @@
+[0.242s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.242s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c56048c9c40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c560483b8f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c560483b8f0>>)
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.313s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/LLM-Controlled-Bot'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'diff_drive_robot'
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.379s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ubuntu/sensors_and_perception/install
+[0.381s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 475 installed packages in /opt/ros/jazzy
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_robot' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_robot' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'diff_drive_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot', 'merge_install': False, 'path': '/home/ubuntu/LLM-Controlled-Bot', 'symlink_install': False, 'test_result_base': None}
+[0.424s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.425s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/LLM-Controlled-Bot' with build type 'ament_cmake'
+[0.425s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/LLM-Controlled-Bot'
+[0.431s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/LLM-Controlled-Bot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot
+[1.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/LLM-Controlled-Bot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot
+[1.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot -- -j12 -l12
+[1.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot -- -j12 -l12
+[1.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot
+[1.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_drive_robot)
+[1.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/sensors_and_perception/install/trajectory_server:/home/ubuntu/sensors_and_perception/install/erc_gazebo_sensors_py:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/LLM-Controlled-Bot/build/diff_drive_robot
+[1.590s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot' for CMake module files
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot' for CMake config files
+[1.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_drive_robot', 'cmake_prefix_path')
+[1.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/hook/cmake_prefix_path.ps1'
+[1.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/hook/cmake_prefix_path.dsv'
+[1.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/hook/cmake_prefix_path.sh'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/bin'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/pkgconfig/diff_drive_robot.pc'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/python3.12/site-packages'
+[1.594s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/bin'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.ps1'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.sh'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.bash'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.zsh'
+[1.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/colcon-core/packages/diff_drive_robot)
+[1.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_drive_robot)
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot' for CMake module files
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot' for CMake config files
+[1.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_drive_robot', 'cmake_prefix_path')
+[1.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/hook/cmake_prefix_path.ps1'
+[1.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/hook/cmake_prefix_path.dsv'
+[1.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/hook/cmake_prefix_path.sh'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/bin'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/pkgconfig/diff_drive_robot.pc'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/lib/python3.12/site-packages'
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/bin'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.ps1'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.dsv'
+[1.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.sh'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.bash'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/diff_drive_robot/package.zsh'
+[1.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/LLM-Controlled-Bot/install/diff_drive_robot/share/colcon-core/packages/diff_drive_robot)
+[1.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.605s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.623s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.623s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.747s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/LLM-Controlled-Bot/install/local_setup.ps1'
+[1.749s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/LLM-Controlled-Bot/install/_local_setup_util_ps1.py'
+[1.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/LLM-Controlled-Bot/install/setup.ps1'
+[1.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/LLM-Controlled-Bot/install/local_setup.sh'
+[1.752s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/LLM-Controlled-Bot/install/_local_setup_util_sh.py'
+[1.753s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/LLM-Controlled-Bot/install/setup.sh'
+[1.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/LLM-Controlled-Bot/install/local_setup.bash'
+[1.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/LLM-Controlled-Bot/install/setup.bash'
+[1.756s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/LLM-Controlled-Bot/install/local_setup.zsh'
+[1.757s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/LLM-Controlled-Bot/install/setup.zsh'
